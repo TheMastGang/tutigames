@@ -1,0 +1,34 @@
+{
+  "games": [
+    {
+      "title": "Parkour Warrior",
+      "emoji": "🏃",
+      "shortDescription": "An exciting parkour action game with challenging levels and spectacular moves",
+      "fullDescription": "Parkour Warrior is an intense 3D parkour action game built with Godot Engine. Navigate through challenging levels, perform wall-running, ledge-grabbing, and other parkour techniques to overcome obstacles. Master the art of parkour and reach the finish line!",
+      "tags": ["Godot 3D", "Android", "PC"],
+      "downloads": {
+        "apk": "https://drive.google.com/your-apk-link",
+        "pc": "https://drive.google.com/your-pc-build",
+        "webgl": "https://your-itch-io-link"
+      }
+    },
+    {
+      "title": "Upcoming Godot Projects",
+      "emoji": "🚀",
+      "shortDescription": "Exciting new 3D game projects coming soon",
+      "fullDescription": "I'm currently working on some amazing new 3D game projects using Godot Engine. These are still in development, but I'll be sharing sneak peeks and devlogs regularly. Make sure to check back often for updates!",
+      "tags": ["Godot 3D", "Upcoming", "Sneak Peek"],
+      "downloads": {}
+    },
+    {
+      "title": "Game Jam Entries",
+      "emoji": "🎯",
+      "shortDescription": "Experimental builds and rapid prototypes",
+      "fullDescription": "A collection of fun experimental games and rapid prototypes from various game jams. These showcase creative ideas, quick innovation, and experimental game mechanics. Many of these are available to play right now!",
+      "tags": ["Experimental", "Prototype", "WebGL"],
+      "downloads": {
+        "webgl": "https://your-itch-io-game-jam-link"
+      }
+    }
+  ]
+}

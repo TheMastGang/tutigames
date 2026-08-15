@@ -1,0 +1,24 @@
+{
+  "devlogs": [
+    {
+      "title": "🚀 Website Launch - TutiGames Official Site",
+      "date": "August 15, 2024",
+      "content": "Excited to announce the launch of TutiGames official website! This marks the beginning of my journey to build a direct connection with my audience. No more algorithm dependency - you can now get all updates, devlogs, and game releases directly from here. This website will be my official hub for everything game development related!"
+    },
+    {
+      "title": "✨ Parkour Warrior v1.0 Released!",
+      "date": "August 10, 2024",
+      "content": "After several months of intense development, Parkour Warrior v1.0 is finally out! The game is now available for Android (APK) and PC. This is the culmination of countless hours of coding, level design, and playtesting. I'm incredibly proud of how this turned out. Download it now and let me know what you think!"
+    },
+    {
+      "title": "🔨 Development Journey of Parkour Warrior",
+      "date": "July 28, 2024",
+      "content": "Working on Parkour Warrior has been an amazing learning experience. From implementing complex movement mechanics to optimizing performance, every challenge has made me a better developer. The parkour system supports wall-running, ledge-grabbing, and dynamic momentum. Special thanks to the community for the feedback!"
+    },
+    {
+      "title": "🎮 Next Project Announcement",
+      "date": "August 1, 2024",
+      "content": "I'm currently working on an exciting new 3D project using Godot. I can't reveal too much yet due to the unannounced nature, but I promise it's going to be something special. Stay tuned for sneak peeks, behind-the-scenes looks, and development updates coming soon!"
+    }
+  ]
+}
