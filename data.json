@@ -1,0 +1,105 @@
+{
+  "bio": "Indie Game Developer & Audio Composer. Building high-performance 3D games in Godot Engine & producing gaming music under Tuti Mast Gang.",
+  
+  "games": [
+    {
+      "title": "Parkour Warrior",
+      "description": "Intense 3D parkour action game with challenging levels and spectacular moves. Master parkour mechanics and reach the finish line!",
+      "tags": ["Godot 3D", "Android", "PC"],
+      "links": {
+        "APK": "https://drive.google.com/your-apk",
+        "PC": "https://drive.google.com/your-pc",
+        "WebGL": "https://your-itch.io"
+      }
+    },
+    {
+      "title": "Upcoming 3D Project",
+      "description": "Next big game in development - Revolutionary gameplay mechanics and stunning visuals. Sneak peeks coming soon!",
+      "tags": ["Godot 3D", "Upcoming"],
+      "links": {
+        "Newsletter": "https://your-email-signup"
+      }
+    },
+    {
+      "title": "Game Jam Entries",
+      "description": "Experimental games and rapid prototypes from various game jams. Showcase of creative ideas and quick innovation.",
+      "tags": ["Experimental", "WebGL"],
+      "links": {
+        "Play": "https://your-itch.io/game-jam"
+      }
+    }
+  ],
+
+  "music": [
+    {
+      "title": "Parkour Warrior OST",
+      "description": "Epic orchestral soundtrack from the game. High-energy beats for intense gameplay.",
+      "links": {
+        "Spotify": "https://open.spotify.com/your-track",
+        "YouTube": "https://youtube.com/your-video",
+        "SoundCloud": "https://soundcloud.com/your-track"
+      }
+    },
+    {
+      "title": "Gaming Beats Vol. 1",
+      "description": "High-energy electronic music for gameplay. Perfect for action sequences and intense moments.",
+      "links": {
+        "Spotify": "https://open.spotify.com/your-track",
+        "YouTube": "https://youtube.com/your-video"
+      }
+    },
+    {
+      "title": "Chill Lo-Fi Gaming",
+      "description": "Relaxing ambient music for exploration. Peaceful vibes for meditation and focus.",
+      "links": {
+        "Spotify": "https://open.spotify.com/your-track",
+        "YouTube": "https://youtube.com/your-video"
+      }
+    }
+  ],
+
+  "links": [
+    {
+      "title": "YouTube",
+      "description": "Gaming videos & devlogs",
+      "icon": "▶️",
+      "url": "https://youtube.com/your-channel",
+      "color": "#FF0000"
+    },
+    {
+      "title": "Twitter/X",
+      "description": "Real-time updates & tweets",
+      "icon": "𝕏",
+      "url": "https://twitter.com/your-handle",
+      "color": "#000000"
+    },
+    {
+      "title": "Discord",
+      "description": "Community & game discussion",
+      "icon": "💬",
+      "url": "https://discord.gg/your-server",
+      "color": "#5865F2"
+    },
+    {
+      "title": "Itch.io",
+      "description": "Download all games",
+      "icon": "🎮",
+      "url": "https://your-profile.itch.io",
+      "color": "#FA5400"
+    },
+    {
+      "title": "GitHub",
+      "description": "Source code & projects",
+      "icon": "💻",
+      "url": "https://github.com/TheMastGang",
+      "color": "#FFFFFF"
+    },
+    {
+      "title": "Email",
+      "description": "Business inquiries",
+      "icon": "📧",
+      "url": "mailto:your-email@example.com",
+      "color": "#FFA500"
+    }
+  ]
+}

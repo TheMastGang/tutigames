@@ -3,106 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TutiGames - Game Development Portfolio</title>
+    <title>TutiGames - Indie Game Developer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <h1>🎮 TutiGames</h1>
+    <div class="container">
+        <!-- Logo Header -->
+        <div class="logo-header">
+            <svg class="logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <!-- Gaming Avatar with Headphones + Gamepad -->
+                <!-- Head Circle -->
+                <circle cx="100" cy="70" r="45" fill="none" stroke="#00d2ff" stroke-width="3"/>
+                <circle cx="100" cy="70" r="40" fill="#0b0c10" stroke="#00d2ff" stroke-width="2"/>
+                
+                <!-- Eyes -->
+                <circle cx="85" cy="60" r="5" fill="#00d2ff"/>
+                <circle cx="115" cy="60" r="5" fill="#00d2ff"/>
+                
+                <!-- Mouth -->
+                <path d="M 85 80 Q 100 85 115 80" stroke="#00d2ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+                
+                <!-- Left Headphone -->
+                <circle cx="60" cy="70" r="12" fill="none" stroke="#00d2ff" stroke-width="2"/>
+                <rect x="48" y="65" width="8" height="10" fill="#00d2ff" rx="4"/>
+                
+                <!-- Right Headphone -->
+                <circle cx="140" cy="70" r="12" fill="none" stroke="#00d2ff" stroke-width="2"/>
+                <rect x="144" y="65" width="8" height="10" fill="#00d2ff" rx="4"/>
+                
+                <!-- Headphone Band -->
+                <path d="M 72 55 Q 100 40 128 55" stroke="#00d2ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+                
+                <!-- Gamepad -->
+                <rect x="65" y="120" width="70" height="35" fill="none" stroke="#00d2ff" stroke-width="2" rx="8"/>
+                <circle cx="80" cy="130" r="3" fill="#00d2ff"/>
+                <circle cx="80" cy="145" r="3" fill="#00d2ff"/>
+                <circle cx="95" cy="137" r="3" fill="#00d2ff"/>
+                <circle cx="65" cy="137" r="3" fill="#00d2ff"/>
+                
+                <!-- D-Pad -->
+                <rect x="75" y="125" width="4" height="12" fill="#00d2ff"/>
+                <rect x="71" y="129" width="12" height="4" fill="#00d2ff"/>
+                
+                <!-- Buttons -->
+                <circle cx="135" cy="128" r="3" fill="#00d2ff"/>
+                <circle cx="145" cy="128" r="3" fill="#00d2ff"/>
+                <circle cx="140" cy="138" r="3" fill="#00d2ff"/>
+                
+                <!-- Glow Effect -->
+                <circle cx="100" cy="70" r="48" fill="none" stroke="#00d2ff" stroke-width="1" opacity="0.3" class="glow"/>
+            </svg>
+            <h1>TutiGames</h1>
+        </div>
+
+        <!-- Bio Section -->
+        <div class="bio-section">
+            <p id="bio-text"></p>
+        </div>
+
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="games">🎮 Games</button>
+            <button class="tab-btn" data-tab="music">🎵 Music</button>
+            <button class="tab-btn" data-tab="links">🔗 Links</button>
+        </div>
+
+        <!-- Tab Contents -->
+        <div class="tab-content">
+            <!-- Games Tab -->
+            <div id="games" class="tab-pane active">
+                <div id="games-list" class="items-list"></div>
             </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#games">Games</a></li>
-                <li><a href="#devlogs">Devlogs</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Welcome to TutiGames</h2>
-            <p>🚀 Indie Game Developer | Parkour Warrior Creator | Godot Enthusiast</p>
-            <p class="hero-subtext">Crafting unique gaming experiences with passion and creativity</p>
-            <a href="#games" class="cta-button">Explore Games</a>
-        </div>
-    </section>
+            <!-- Music Tab -->
+            <div id="music" class="tab-pane">
+                <div id="music-list" class="items-list"></div>
+            </div>
 
-    <!-- Games Section -->
-    <section id="games" class="games">
-        <div class="container">
-            <h2>🎯 My Games</h2>
-            <div class="games-grid" id="gamesContainer">
-                <!-- Games will be loaded here by JavaScript -->
+            <!-- Links Tab -->
+            <div id="links" class="tab-pane">
+                <div id="links-list" class="items-list"></div>
             </div>
         </div>
-    </section>
 
-    <!-- Game Modal -->
-    <div id="gameModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="modalBody"></div>
+        <!-- Footer -->
+        <div class="footer">
+            <p>© 2024 TutiGames | Made with ❤️ by TheMastGang</p>
         </div>
     </div>
-
-    <!-- Devlogs Section -->
-    <section id="devlogs" class="devlogs">
-        <div class="container">
-            <h2>📝 Latest Devlogs</h2>
-            <div class="devlogs-container" id="devlogsContainer">
-                <!-- Devlogs will be loaded here -->
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>👨‍💻 About Me</h2>
-            <div class="about-content">
-                <p>Hi! I'm a passionate indie game developer creating games with <strong>Godot Engine</strong>. My focus is on creating engaging, innovative gaming experiences that push creative boundaries.</p>
-                <div class="skills">
-                    <h3>Technologies & Tools:</h3>
-                    <ul>
-                        <li>🎮 Godot Engine 3D & 2D</li>
-                        <li>🔧 C# & GDScript</li>
-                        <li>🎨 Blender for 3D Assets</li>
-                        <li>🌐 Web Technologies (HTML/CSS/JS)</li>
-                        <li>📦 Game Publishing (Android, PC, Web)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>📧 Get In Touch</h2>
-            <div class="contact-content">
-                <p>Have questions or collaboration ideas? Reach out!</p>
-                <div class="social-links">
-                    <a href="https://github.com/TheMastGang" target="_blank" class="social-btn">GitHub</a>
-                    <a href="https://youtube.com" target="_blank" class="social-btn">YouTube</a>
-                    <a href="mailto:your-email@example.com" class="social-btn">Email</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 TutiGames. All rights reserved. | Made with ❤️ by TheMastGang</p>
-        </div>
-    </footer>
 
     <script src="script.js"></script>
 </body>
