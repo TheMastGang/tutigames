@@ -44,21 +44,37 @@ body {
     animation: slideInDown 0.6s ease;
 }
 
-.logo {
-    width: 120px;
-    height: 120px;
+.logo-wrapper {
+    position: relative;
+    width: 140px;
+    height: 140px;
     margin: 0 auto 20px;
-    display: block;
-    filter: drop-shadow(0 0 15px rgba(0, 210, 255, 0.6));
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.glow {
-    animation: pulse 2s ease-in-out infinite;
+.logo {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 25px rgba(0, 210, 255, 0.8)) 
+            drop-shadow(0 0 40px rgba(0, 210, 255, 0.5)) 
+            drop-shadow(0 0 60px rgba(0, 210, 255, 0.3));
+    animation: glowPulse 3s ease-in-out infinite;
 }
 
-@keyframes pulse {
-    0%, 100% { opacity: 0.3; }
-    50% { opacity: 0.8; }
+@keyframes glowPulse {
+    0%, 100% { 
+        filter: drop-shadow(0 0 25px rgba(0, 210, 255, 0.8)) 
+                drop-shadow(0 0 40px rgba(0, 210, 255, 0.5)) 
+                drop-shadow(0 0 60px rgba(0, 210, 255, 0.3));
+    }
+    50% { 
+        filter: drop-shadow(0 0 35px rgba(0, 210, 255, 1)) 
+                drop-shadow(0 0 50px rgba(0, 210, 255, 0.7)) 
+                drop-shadow(0 0 80px rgba(0, 210, 255, 0.5));
+    }
 }
 
 h1 {
@@ -305,9 +321,14 @@ h1 {
         font-size: 2rem;
     }
 
+    .logo-wrapper {
+        width: 120px;
+        height: 120px;
+    }
+
     .logo {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
 
     .tab-btn {
